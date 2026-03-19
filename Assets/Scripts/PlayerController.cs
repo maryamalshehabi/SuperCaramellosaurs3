@@ -9,6 +9,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private GameObject _menu;
 
+    [SerializeField] 
+    private GameObject _gameOverImage;
+
+    [SerializeField] private GameObject _playButton;
+
     private Rigidbody2D _rigidbody;
     private int _score = 0;
 
@@ -45,10 +50,12 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, _rigidbody.linearVelocity.y * _rotationMultiplier);
     }
 
-    private void OnCollisionEnter2D(Collision2D Collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         gameObject.SetActive(false);
         _menu.SetActive(true);
+        _gameOverImage.SetActive(true);
+        _playButton.SetActive(false);
         _score = 0;
     }
 

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BirdFly101
+  m_Name: birdanim1
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -3551287784963028691, guid: a66535a24e373544282770289e0e1439, type: 3}
+      value: {fileID: -1207841707077272702, guid: 3b360636514040944854e08951426245, type: 3}
     - time: 0.16666667
-      value: {fileID: -8201979356790150815, guid: 130f0e89ec9cfa54996e4a5e5c75e39e, type: 3}
+      value: {fileID: -2966782557986119690, guid: 3b360636514040944854e08951426245, type: 3}
     - time: 0.33333334
-      value: {fileID: -6166856601384965521, guid: ddf4f0e2d8cc4c141a8f9c9a7f9f290b, type: 3}
+      value: {fileID: -56839117156836721, guid: 3b360636514040944854e08951426245, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,9 +48,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -3551287784963028691, guid: a66535a24e373544282770289e0e1439, type: 3}
-    - {fileID: -8201979356790150815, guid: 130f0e89ec9cfa54996e4a5e5c75e39e, type: 3}
-    - {fileID: -6166856601384965521, guid: ddf4f0e2d8cc4c141a8f9c9a7f9f290b, type: 3}
+    - {fileID: -1207841707077272702, guid: 3b360636514040944854e08951426245, type: 3}
+    - {fileID: -2966782557986119690, guid: 3b360636514040944854e08951426245, type: 3}
+    - {fileID: -56839117156836721, guid: 3b360636514040944854e08951426245, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

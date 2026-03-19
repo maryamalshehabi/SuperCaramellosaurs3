@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 8ff2b8ad99a329842818accb9da29599
+guid: 3b360636514040944854e08951426245
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6899527831451061053
-    second: GameOver_0
+      213: -1207841707077272702
+    second: BirdSprite_0
   - first:
-      213: 4804125648906539500
-    second: GameOver_1
+      213: -56839117156836721
+    second: BirdSprite_1
+  - first:
+      213: -2966782557986119690
+    second: BirdSprite_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameOver_0
+      name: BirdDown
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 21
+        x: 66
+        y: 293
+        width: 418
+        height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c430781ef3ff30a0800000000000000
-      internalID: -6899527831451061053
+      spriteID: 28bf1c8ed52ec3fe0800000000000000
+      internalID: -1207841707077272702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameOver_1
+      name: Birdnormal
       rect:
         serializedVersion: 2
-        x: 53
-        y: 0
-        width: 43
-        height: 21
+        x: 541
+        y: 293
+        width: 369
+        height: 379
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a1584cf11163ff0800000000000000
+      internalID: -56839117156836721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birdup
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 293
+        width: 437
+        height: 435
+      alignment: 9
+      pivot: {x: 0.46309274, y: 0.41808623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce1da6703deaba240800000000000000
-      internalID: 4804125648906539500
+      spriteID: 6ff99617bfed3d6d0800000000000000
+      internalID: -2966782557986119690
       vertices: []
       indices: 
       edges: []
@@ -163,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 47ce44cd52123cd418e1be22e6e680f0
+    spriteID: 2f54b7fd59043d546b2fef5f8412ede1
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +198,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GameOver_0: -6899527831451061053
-      GameOver_1: 4804125648906539500
+      BirdDown: -1207841707077272702
+      BirdSprite_0: 385540697
+      Birdnormal: -56839117156836721
+      Birdup: -2966782557986119690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
